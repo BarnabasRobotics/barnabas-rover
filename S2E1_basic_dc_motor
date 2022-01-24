@@ -1,0 +1,34 @@
+/*
+Challenges:
+1) Get both wheels to move back and forth (one at a time)
+2) Move both wheels forward at the same time
+3) Move both wheels backward at the same time
+4) Move both wheels forward for one sec, stop, then move backwards for one sec, stop, repeat
+
+*/
+
+void setup() {
+  
+  //-Control Motor B
+  pinMode(10,OUTPUT);
+  pinMode(12,OUTPUT);
+  
+  
+  //-Control Motor A
+  pinMode(8,OUTPUT);
+  pinMode(11,OUTPUT);
+  
+}
+
+
+void loop() {
+  
+  //-Turn on Motor B
+  digitalWrite(10,HIGH);
+  digitalWrite(12,HIGH);
+  
+  //-Turn on Motor A
+  digitalWrite(8,HIGH);
+  digitalWrite(11,HIGH);
+  
+}
