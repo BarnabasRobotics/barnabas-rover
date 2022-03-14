@@ -75,6 +75,8 @@ void stop() {
 
 void moveForward(int speeda, int speedb, int inches) {
   
+  int myDelay;
+  
   //- motor a
   analogWrite(mota_pin1,speeda);
   analogWrite(mota_pin2,0);
@@ -85,9 +87,9 @@ void moveForward(int speeda, int speedb, int inches) {
   
   //- move forward the distance in inches
   
-  int myDelay;
   
-  myDelay = inches*1;
+  
+  myDelay = inches*125;
   delay(myDelay);
   
   //- stop
@@ -112,7 +114,7 @@ void moveBackward(int speeda, int speedb) {
 void loop() {
   
   if (digitalRead(button_pin)==LOW) {
-      moveForward(150,150,1);
+      moveForward(110,110,10);
     
   }
   else {
