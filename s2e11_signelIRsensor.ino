@@ -1,17 +1,8 @@
 /*
-Challenge #1: Find out A0 levels for light on, light off
-- super bright: 38
-- light on : 102
-- light off: 180
-- full darkness: 547
-
-Challenge #2: move car when light is on, stop when light is off
-
-Challenge #3: move forward when light is on, move backward when the light is off
-
-Challenge #4: push the button, car moves forward, 
-              whenever you shine a light on the photoresistor, turn right
-
+Challenge #1: Wire IR Sensor
+Challenge #2: Calibrate IR Sensor so that it detects your hand
+Challenge #3: Calibrate IR Sensor so that it detects black versus white
+Challenge #4: Code your rover to stop at a black/dark object
 
 */
 
