@@ -1,9 +1,6 @@
 /*
-Challenge #1: Wire IR Sensor
-Challenge #2: Calibrate IR Sensor so that it detects your hand
-Challenge #3: Calibrate IR Sensor so that it detects black versus white
-Challenge #4: Code your rover to stop at a black/dark object
-
+Line following code
+Video tutorial at: https://youtu.be/6JP4tyrF_q8
 */
 
 
@@ -259,7 +256,9 @@ void moveBackward(int speeda, int speedb) {
 
 void loop() {
   
-  
+  //- 1 -> senses black
+  //- 0 -> senses white
+ 
   
   int leftStatus = digitalRead(left_sensor_pin);
   int rightStatus = digitalRead(right_sensor_pin);
