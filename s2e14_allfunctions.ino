@@ -1,6 +1,8 @@
 /*
-Line following code
-Video tutorial at: https://youtu.be/6JP4tyrF_q8
+Topics Covered:
+- How to use the button to change the mode of the car so that it can blink lights, sense light, avoid obstacles and follow a line.
+
+Tutorial at: https://youtu.be/NYNL7z_iMzM
 */
 
 
