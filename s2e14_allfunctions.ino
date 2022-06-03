@@ -169,7 +169,9 @@ void moveToWall(int speeda, int speedb) {
   
   int distance = ultrasonic();
   
-  while (distance > 5) {
+  //while (distance > 5) {
+  while (distance > 5 || distance == 0) {
+  
     //-do nothing except check distance
     distance = ultrasonic();
     Serial.println(distance);
@@ -332,6 +334,7 @@ void loop() {
     moveBackward(200,200);
     delay(500);
     stop();
+    delay(1000);
   }
   delay(1000);
   
